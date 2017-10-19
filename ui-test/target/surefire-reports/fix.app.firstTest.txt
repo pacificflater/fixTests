@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: fix.app.firstTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.5 sec <<< FAILURE!
+openPage(fix.app.firstTest)  Time elapsed: 9.946 sec  <<< FAILURE!
+Element should have text 'Привет, WQAa!' {h3}
+Element: '<h3 class="ng-binding">Привет, WQA!</h3>'
+Screenshot: file:/C:/dev/Fix/ui-test/build/reports/tests/1508409896602.0.png
+Page source: file:/C:/dev/Fix/ui-test/build/reports/tests/1508409896602.0.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:66)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:143)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:87)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:63)
+	at com.sun.proxy.$Proxy2.shouldHave(Unknown Source)
+	at fix.app.firstTest.openPage(firstTest.java:23)
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="TestSuite" time="0.829" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2017.2.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\soft\java\jdk\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\dev\Fix\ui-test"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\dev\Fix\ui-test"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\soft\java\jdk\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\CHINGI~1.DIA\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\soft\java\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\soft\cmder\bin;C:\soft\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\soft\cmder\vendor\conemu-maximus5;C:\soft\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\soft\ConEmu;C:\soft\ConEmu\ConEmu;C:\soft\java\jdk\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC;C:\Program Files (x86)\EOS\PB10DK;C:\Users\chingiz.diarov\AppData\Local\Docsvision\Common;C:\Users\chingiz.diarov\AppData\Roaming\npm;C:\soft\ansicon\x64;C:\soft\apache\maven\bin;c:\soft\chocolatey\bin;C:\soft\gettext-tools\bin;C:\soft\gradle\bin;C:\soft\mongodb\bin;c:\soft\mysql\bin;C:\soft\nodejs;c:\soft\proguard\bin;C:\soft\Python27;C:\soft\Python27\DLLs;C:\soft\Python27\include;C:\soft\Python27\lib;C:\soft\Python27\Lib\site-packages;C:\soft\Python27\Scripts;C:\soft\RabbitMQ Server\rabbitmq_server-3.4.2\sbin;C:\soft\TortoiseHg;c:\soft\Inno Setup 5;C:\soft\LLVM\bin;c:\soft\Mercurial;C:\soft\oracle\product\11.2.0\bin;C:\Program Files (x86)\EOS\PB10DK\;c:\soft\redis;C:\Program Files\Mercurial\;C:\soft\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\soft\Mercurial\;C:\Users\chingiz.diarov\AppData\Local\Microsoft\WindowsApps;C:\soft\cmder\;c:\soft\pgsql\bin;C:\soft\Git\cmd;C:\soft\TortoiseHg\;C:\Python27;C:\soft\nodejs\;C:\soft\Python36\Scripts\;C:\Users\chingiz.diarov\AppData\Roaming\npm;C:\Users\chingiz.diarov\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\chingiz.diarov"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Chingiz.Diarov"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\soft\java\jdk\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.2.5 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\soft\java\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\soft\java\jdk\jre\lib\resources.jar;C:\soft\java\jdk\jre\lib\rt.jar;C:\soft\java\jdk\jre\lib\sunrsasign.jar;C:\soft\java\jdk\jre\lib\jsse.jar;C:\soft\java\jdk\jre\lib\jce.jar;C:\soft\java\jdk\jre\lib\charsets.jar;C:\soft\java\jdk\jre\lib\jfr.jar;C:\soft\java\jdk\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="fix.app.firstTest" name="openPage" time="0.28">
+    <failure message="Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;W-DIAROVCHM&apos;, ip: &apos;172.16.20.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: FirefoxDriver
+selenide.url: https://music.yandex.ru/feed
+selenide.baseUrl: http://localhost:8080" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;W-DIAROVCHM&apos;, ip: &apos;172.16.20.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: FirefoxDriver
+selenide.url: https://music.yandex.ru/feed
+selenide.baseUrl: http://localhost:8080
+	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:116)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:217)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:143)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.codeborne.selenide.webdriver.FirefoxDriverFactory.createFirefoxDriver(FirefoxDriverFactory.java:32)
+	at com.codeborne.selenide.webdriver.FirefoxDriverFactory.create(FirefoxDriverFactory.java:25)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$0(WebDriverFactory.java:55)
+	at java.util.Optional.map(Optional.java:215)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:55)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:227)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:111)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:142)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:79)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
+	at fix.app.firstTest.openPage(firstTest.java:10)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@59f95c5d
+</system-out>
+    <system-err>Oct 19, 2017 11:21:51 AM com.codeborne.selenide.webdriver.FirefoxDriverFactory createFirefoxDriver
+INFO: Firefox 48+ is currently not supported by Selenium Firefox driver. Use browser=marionette with geckodriver, when using it.
+</system-err>
+  </testcase>
+  <testcase classname="fix.app.AppTest" name="testApp on testApp(fix.app.AppTest)" time="0.549"/>
+</testsuite>

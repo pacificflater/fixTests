@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.045 sec <<< FAILURE!
+openPage(fix.app.firstTest)  Time elapsed: 0.28 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'W-DIAROVCHM', ip: '172.16.20.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: FirefoxDriver
+selenide.url: https://music.yandex.ru/feed
+selenide.baseUrl: http://localhost:8080
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:116)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:217)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:143)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at com.codeborne.selenide.webdriver.FirefoxDriverFactory.createFirefoxDriver(FirefoxDriverFactory.java:32)
+	at com.codeborne.selenide.webdriver.FirefoxDriverFactory.create(FirefoxDriverFactory.java:25)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$0(WebDriverFactory.java:55)
+	at java.util.Optional.map(Optional.java:215)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:55)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:227)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:111)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:142)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:79)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:53)
+	at fix.app.firstTest.openPage(firstTest.java:10)
+

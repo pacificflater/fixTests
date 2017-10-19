@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="fix.app.firstTest" time="9.946" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2017.2.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\soft\java\jdk\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\dev\Fix\ui-test"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\dev\Fix\ui-test"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\soft\java\jdk\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\CHINGI~1.DIA\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\soft\java\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\soft\cmder\bin;C:\soft\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\soft\cmder\vendor\conemu-maximus5;C:\soft\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\soft\ConEmu;C:\soft\ConEmu\ConEmu;C:\soft\java\jdk\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC;C:\Program Files (x86)\EOS\PB10DK;C:\Users\chingiz.diarov\AppData\Local\Docsvision\Common;C:\Users\chingiz.diarov\AppData\Roaming\npm;C:\soft\ansicon\x64;C:\soft\apache\maven\bin;c:\soft\chocolatey\bin;C:\soft\gettext-tools\bin;C:\soft\gradle\bin;C:\soft\mongodb\bin;c:\soft\mysql\bin;C:\soft\nodejs;c:\soft\proguard\bin;C:\soft\Python27;C:\soft\Python27\DLLs;C:\soft\Python27\include;C:\soft\Python27\lib;C:\soft\Python27\Lib\site-packages;C:\soft\Python27\Scripts;C:\soft\RabbitMQ Server\rabbitmq_server-3.4.2\sbin;C:\soft\TortoiseHg;c:\soft\Inno Setup 5;C:\soft\LLVM\bin;c:\soft\Mercurial;C:\soft\oracle\product\11.2.0\bin;C:\Program Files (x86)\EOS\PB10DK\;c:\soft\redis;C:\Program Files\Mercurial\;C:\soft\GNU\GnuPG\pub;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\soft\Mercurial\;C:\Users\chingiz.diarov\AppData\Local\Microsoft\WindowsApps;C:\soft\cmder\;c:\soft\pgsql\bin;C:\soft\Git\cmd;C:\soft\TortoiseHg\;C:\Python27;C:\soft\nodejs\;C:\soft\Python36\Scripts\;C:\Users\chingiz.diarov\AppData\Roaming\npm;C:\Users\chingiz.diarov\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\chingiz.diarov"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Chingiz.Diarov"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\soft\java\jdk\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.2.5 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\soft\java\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\soft\java\jdk\jre\lib\resources.jar;C:\soft\java\jdk\jre\lib\rt.jar;C:\soft\java\jdk\jre\lib\sunrsasign.jar;C:\soft\java\jdk\jre\lib\jsse.jar;C:\soft\java\jdk\jre\lib\jce.jar;C:\soft\java\jdk\jre\lib\charsets.jar;C:\soft\java\jdk\jre\lib\jfr.jar;C:\soft\java\jdk\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.2.5\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="fix.app.firstTest" name="openPage" time="9.946">
+    <failure message="Element should have text &apos;Привет, WQAa!&apos; {h3}
+Element: &apos;&lt;h3 class=&quot;ng-binding&quot;&gt;Привет, WQA!&lt;/h3&gt;&apos;" type="Element should have text &apos;Привет, WQAa!&apos; {h3}
+Element">Element should have text &apos;Привет, WQAa!&apos; {h3}
+Element: &apos;&lt;h3 class=&quot;ng-binding&quot;&gt;Привет, WQA!&lt;/h3&gt;&apos;
+Screenshot: file:/C:/dev/Fix/ui-test/build/reports/tests/1508409896602.0.png
+Page source: file:/C:/dev/Fix/ui-test/build/reports/tests/1508409896602.0.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:66)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:143)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:87)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:63)
+	at com.sun.proxy.$Proxy2.shouldHave(Unknown Source)
+	at fix.app.firstTest.openPage(firstTest.java:23)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@33833882
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 48906
+Only local connections are allowed.
+Oct 19, 2017 1:44:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 19, 2017 1:44:51 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=61.0.3163.100 Platform=XP
+Oct 19, 2017 1:44:51 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 4.8
+Oct 19, 2017 1:44:51 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.6.0 build time: 2017-09-27T15:28:36.4Z
+Oct 19, 2017 1:44:51 PM com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
+INFO: Create webdriver in current thread 1: ChromeDriver -&gt; ChromeDriver: chrome on XP (aa96ad7a74dfd8214e173cc6a5cbf610)
+Oct 19, 2017 1:44:56 PM com.codeborne.selenide.impl.ScreenShotLaboratory ensureFolderExists
+INFO: Creating folder: build\reports\tests
+</system-err>
+  </testcase>
+</testsuite>
